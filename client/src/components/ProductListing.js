@@ -16,17 +16,23 @@ export default function ProductListing() {
         } catch (error) {
             console.log(error)
         }
-        console.log("product: ", products)
-
+      
     }
 
     useEffect(() => {
         fetchApi();
     }, [])
+    console.log("product: ", products)
+
  
     return (
-        <div className="container">
-            <SingleProduct/>
+        <div className="container ">
+            <div className="row">
+                <div className="col-md-4 d-flex flex-wrap">
+                <SingleProduct/>
+                </div>
+            </div>
+           
         </div>
     )
 }
