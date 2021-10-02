@@ -8,13 +8,11 @@ export default function SingleProduct() {
     // const {id, title, category} = products[0];
     return (
         <div>
-           
             {
                 products.map((product)=>{
-                    const {id, title, price, description, category, image} = product;
+                    const {id, title, price, category, image} = product;
 
-                    return(
-                       
+                    return( 
                         <div className="container border rounded mx-2 my-2 px-2 py-2  d-flex justify-content-start cursor-pointer " style={{maxWidth: '270px'}} key={id}>
                              <Link to={`/product/${id}`}>
                         <div className="row">
@@ -26,13 +24,10 @@ export default function SingleProduct() {
                             </div>
                         </div>
                         </Link>
-                    </div>
-                    
+                    </div> 
                     )
                 })
-            }
-           
+            }    
         </div>
-       
     )
 }
