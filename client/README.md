@@ -6,12 +6,12 @@ Redux-Ecommerce Store App is built with latest development tools.
 
 
  - ReactJs is use to develop the ui part.
- - Fully resposive web page.
+ - Fully responsive web page.
  - JSON data get from **fakestoreapi.com**.
  - Redux-Thunk middleware is use to synce the fakestoreapi API.
  - Bootstrap is use to enhance it.
 
-This Swiggy app works across all devices.
+This Redux-Ecommerce Store app works across all devices.
 
 ## Some feature 
  - This is APP follow functional base react architecture.
@@ -21,7 +21,7 @@ This Swiggy app works across all devices.
  
 
  ## Some Ui feature 
- - To enhance the look of this web page Amazon Grate Indian Fastival sale images added.
+ - To enhance the look of this web page Amazon Grate Indian Festival sale images added.
 
 
 ## Screenshots
@@ -85,14 +85,14 @@ Product api data look like
 
 ## Tech Stack
 
-**Client:** React, Redux, Redux-Thunk, BootStrap CSS
+**Client:** React, Redux, Redux-Thunk, BootStrap, CSS
 
 **Server:** https://fakestoreapi.com/
 
 
 ## Installation
 
-GitHub Repositry of React-Redux-Ecommerce App
+GitHub Repository of React-Redux-Ecommerce App
 ```bash
 https://github.com/airKing05/Redux-Ecommerce.git
 ```
